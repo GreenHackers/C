@@ -16,11 +16,11 @@ int main()
 
             switch(ans)
             {
-            case 0: printf("exiting...."); exit(0); break;
-            case 1: printf("area\n"); break;
-            case 2: printf("gold price\n");break;
-            case 3: printf("help\n");break;
-
+            case 0: printf("as your wish to exit\n"); exit(0); break;
+            case 1: printf("find required area\n"); break;
+            case 2: printf("wanna know gold price\n");break;
+            case 3: printf("help needed?\n");break;
+            default: printf("invalid choice please select correct option from above");break;       
             }
             printf("\n");
             system("pause");
