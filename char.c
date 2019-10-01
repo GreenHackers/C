@@ -3,11 +3,11 @@
 
 int main()
 {
-    char c;
+    char d;
     printf("enter a char !\n");
     do{
-        c=getch();
-        printf("\nyou enter char %c = %d =%x",c,c,c);
-    }while(c!=(char)13);
+        d=getch();
+        printf("\nyou enter char %c = %d =%x",d,d,d);
+    }while(d!=(char)13);
     return 0;
 }
