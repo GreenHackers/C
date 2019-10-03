@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 
 int main()
 {
@@ -16,5 +15,5 @@ int main()
 
     printf("%d",b);
 
-
+return 0;
 }
