@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 void funTemF2C(void);
 
 int main()
@@ -9,14 +8,13 @@ int main()
     return 0;
 }
 
-void funTemF2C(void)
+void funTemF2C()
 {
-    float tc;
-    float tf;
-    printf("enter tf ");
+    float tc,tf;
+    printf("Enter temperature in Fahrenheit: ");
     scanf("%f",&tf);
 
     tc=5*(tf-32)/9;
 
-    printf("tc is %f",tc);
+    printf("Temperature in Celcius is %f",tc);
 }
