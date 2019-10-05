@@ -1,14 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-void funTemF2C(void);
-
-int main()
-{
-
-    funTemF2C();
-    return 0;
-}
-
 void funTemF2C(void)
 {
     float tc;
@@ -20,3 +11,11 @@ void funTemF2C(void)
 
     printf("tc is %f",tc);
 }
+int main()
+{
+
+    funTemF2C();
+    return 0;
+}
+
+

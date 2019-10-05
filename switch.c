@@ -20,6 +20,7 @@ int main()
             case 1: printf("area\n"); break;
             case 2: printf("gold price\n");break;
             case 3: printf("help\n");break;
+            default:printf("Please enter a valid input");
 
             }
             printf("\n");
