@@ -17,7 +17,7 @@ void funAreaOfCircle(void)
 {
     float a;
     float r;
-    printf("enter r ");
+    printf("enter radius: ");
     scanf("%f",&r);
 
     a = 3.14 * r * r;
