@@ -15,8 +15,8 @@ int main()
 
 void funAreaOfCircle(void)
 {
-    float a;
-    float r;
+    float a, r;
+    
     printf("enter r ");
     scanf("%f",&r);
 
