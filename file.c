@@ -30,8 +30,8 @@ int main()
 
 float funArea(float r)
 {
-    float a;
-    a=3.14*r*r;
+    float a, PI=3.14;
+    a=PI*r*r;
     return a;
 }
 
