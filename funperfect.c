@@ -17,7 +17,7 @@ void funCalculateArea(void)
     fArea=funPrintInt(k);
     printf("area = %f",fArea);
 }
-
+// we use this for comments
 float funPrintInt(float r)
 {
     float a;
