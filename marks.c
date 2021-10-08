@@ -22,7 +22,7 @@ int main()
     if(m>=40&&m<80) ms=1; //pass
     if(m>=80&&m<100)ms=2; //d
     if(m<0&&m>100)ms=3; //error
-
+//same the we use comments 
 
     switch(ms)
     {
